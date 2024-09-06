@@ -223,39 +223,109 @@
   </td>
 </tr>
 
-<tr bgcolor="#ffffd0">
-  <td width="33%" valign="top" align="center"><a href="https://extreme-parkour.github.io/">
-  <video autoplay loop muted src="images/parkour.mp4" alt="sym" style="padding-top:0px;padding-bottom:0px;border-radius:15px;border:1px solid black" width="90%"></video>
+
+
+<tr>
+  <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2106.13219">
+  <img alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;border:1px solid black" src="images/lmbias.png" />
   </a></td>
   <td width="67%" valign="top">
-    <p><a href="https://extreme-parkour.github.io/" id="EXTREME-PARKOUR">
-    <heading>Extreme Parkour with Legged Robots</heading></a><br>
-    Xuxin Cheng*, Kexin Shi*, Ananye Agarwal, Deepak Pathak<br>
-    ICRA 2024
+    <p><a href="https://arxiv.org/abs/2106.13219" id="lmbias">
+    <heading>Towards Understanding and Mitigating Social Biases in Language Models</heading></a><br>
+    Paul Pu Liang, Chiyu Wu, Louis-Philippe Morency, Ruslan Salakhutdinov<br>
+    ICML 2021<br>
     </p>
 
-    <div class="paper" id="extreme-parkour">
-    <a href="https://extreme-parkour.github.io/">webpage</a> |
-    <a href="javascript:toggleblock('extreme-parkour-abs')">abstract</a> |
-    <a shape="rect" href="javascript:togglebib('extreme-parkour')" class="togglebib">bibtex</a> |
-    <a href="https://arxiv.org/abs/2309.14341">arXiv</a> |
-    <a href="https://github.com/chengxuxin/extreme-parkour">code</a>
+    <div class="paper" id="lmbias">
+    <a href="https://arxiv.org/abs/2106.13219">arXiv</a> |
+    <a href="https://github.com/pliang279/LM_bias">code</a> |
+    <a href="javascript:toggleblock('lmbias_abs')">abstract</a> |
+    <a shape="rect" href="javascript:togglebib('lmbias')" class="togglebib">bibtex</a>
 
-    <p align="justify"> <i style="display: none;" id="extreme-parkour-abs">Humans can perform parkour by traversing obstacles in a highly dynamic fashion requiring precise eye-muscle coordination and movement. Getting robots to do the same task requires overcoming similar challenges. Classically, this is done by independently engineering perception, actuation, and control systems to very low tolerances. This restricts them to tightly controlled settings such as a predetermined obstacle course in labs. In contrast, humans are able to learn parkour through practice without significantly changing their underlying biology. In this paper, we take a similar approach to developing robot parkour on a small low-cost robot with imprecise actuation and a single front-facing depth camera for perception which is low-frequency, jittery, and prone to artifacts. We show how a single neural net policy operating directly from a camera image, trained in simulation with largescale RL, can overcome imprecise sensing and actuation to output highly precise control behavior end-to-end. We show our robot can perform a high jump on obstacles 2x its height, long jump across gaps 2x its length, do a handstand and run across tilted ramps, and generalize to novel obstacle courses with different physical properties.</i></p>
+    <p align="justify"> <i style="display: none;" id="lmbias_abs">As machine learning methods are deployed in real-world settings such as healthcare, legal systems, and social science, it is crucial to recognize how they shape social biases and stereotypes in these sensitive decision-making processes. Among such real-world deployments are large-scale pretrained language models (LMs) that can be potentially dangerous in manifesting undesirable representational biases - harmful biases resulting from stereotyping that propagate negative generalizations involving gender, race, religion, and other social constructs. As a step towards improving the fairness of LMs, we carefully define several sources of representational biases before proposing new benchmarks and metrics to measure them. With these tools, we propose steps towards mitigating social biases during text generation. Our empirical results and human evaluation demonstrate effectiveness in mitigating bias while retaining crucial contextual information for high-fidelity text generation, thereby pushing forward the performance-fairness Pareto frontier.
+    </i></p>
 
 <pre xml:space="preserve" style="display:none;">
-@article{cheng2023parkour,
-title={Extreme Parkour with Legged Robots},
-author={Cheng, Xuxin and Shi,
-Kexin and Agarwal, Ananye and
-Pathak, Deepak},
-journal={arXiv preprint arXiv:2309.14341},
-year={2023}
+  @inproceedings{liang2021towards,
+  title={Towards understanding and mitigating social biases in language models},
+  author={Liang, Paul Pu and Wu, Chiyu and Morency, Louis-Philippe and Salakhutdinov, Ruslan},
+  booktitle={International Conference on Machine Learning},
+  pages={6565--6576},
+  year={2021},
+  organization={PMLR}
 }
 </pre>
     </div>
   </td>
 </tr>
+
+
+<tr>
+  <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/1906.00295">
+  <img alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;border:1px solid black" src="images/mult.png" />
+  </a></td>
+  <td width="67%" valign="top">
+    <p><a href="https://arxiv.org/abs/1906.00295" id="mult">
+    <heading>Multimodal Transformer for Unaligned Multimodal Language Sequences</heading></a><br>
+    Yao-Hung Hubert Tsai, Shaojie Bai, Paul Pu Liang, Zico Kolter, Louis-Philippe Morency, Ruslan Salakhutdinov<br>
+    ACL 2019<br>
+    </p>
+
+    <div class="paper" id="mult">
+    <a href="https://arxiv.org/abs/1906.00295">arXiv</a> |
+    <a href="https://github.com/yaohungt/Multimodal-Transformer">code</a> |
+    <a href="javascript:toggleblock('mult_abs')">abstract</a> |
+    <a shape="rect" href="javascript:togglebib('mult')" class="togglebib">bibtex</a>
+
+    <p align="justify"> <i style="display: none;" id="mult_abs">Human language is often multimodal, which comprehends a mixture of natural language, facial gestures, and acoustic behaviors. However, two major challenges in modeling such multimodal human language time-series data exist: 1) inherent data non-alignment due to variable sampling rates for the sequences from each modality; and 2) long-range dependencies between elements across modalities. In this paper, we introduce the Multimodal Transformer (MulT) to generically address the above issues in an end-to-end manner without explicitly aligning the data. At the heart of our model is the directional pairwise crossmodal attention, which attends to interactions between multimodal sequences across distinct time steps and latently adapt streams from one modality to another. Comprehensive experiments on both aligned and non-aligned multimodal time-series show that our model outperforms state-of-the-art methods by a large margin. In addition, empirical analysis suggests that correlated crossmodal signals are able to be captured by the proposed crossmodal attention mechanism in MulT.
+    </i></p>
+
+<pre xml:space="preserve" style="display:none;">
+  @inproceedings{tsai2019multimodal,
+  title={Multimodal Transformer for Unaligned Multimodal Language Sequences},
+  author={Tsai, Yao-Hung Hubert and Bai, Shaojie and Liang, Paul Pu and Kolter, J Zico and Morency, Louis-Philippe and Salakhutdinov, Ruslan},
+  booktitle={Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics},
+  pages={6558--6569},
+  year={2019}
+}
+</pre>
+    </div>
+  </td>
+</tr>
+  
+  
+<tr>
+  <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2001.01523">
+  <img alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;border:1px solid black" src="images/fl.png" />
+  </a></td>
+  <td width="67%" valign="top">
+    <p><a href="https://arxiv.org/abs/2001.01523" id="fl">
+    <heading>Think Locally, Act Globally: Federated Learning with Local and Global Representations</heading></a><br>
+    Paul Pu Liang*, Terrance Liu*, Liu Ziyin, Nicholas Allen, Randy Auerbach, David Brent, Ruslan Salakhutdinov, Louis-Philippe Morency<br>
+    NeurIPS 2019 Workshop on Federated Learning <font color="#DC143C">(oral, distinguished student paper award)<br>
+    </p>
+
+    <div class="paper" id="fl">
+    <a href="https://arxiv.org/abs/2001.01523">arXiv</a> |
+    <a href="https://github.com/pliang279/LG-FedAvg">code</a> |
+    <a href="javascript:toggleblock('fl_abs')">abstract</a> |
+    <a shape="rect" href="javascript:togglebib('fl')" class="togglebib">bibtex</a>
+
+    <p align="justify"> <i style="display: none;" id="fl_abs">Federated learning is a method of training models on private data distributed over multiple devices. To keep device data private, the global model is trained by only communicating parameters and updates which poses scalability challenges for large models. To this end, we propose a new federated learning algorithm that jointly learns compact local representations on each device and a global model across all devices. As a result, the global model can be smaller since it only operates on local representations, reducing the number of communicated parameters. Theoretically, we provide a generalization analysis which shows that a combination of local and global models reduces both variance in the data as well as variance across device distributions. Empirically, we demonstrate that local models enable communication-efficient training while retaining performance. We also evaluate on the task of personalized mood prediction from real-world mobile data where privacy is key. Finally, local models handle heterogeneous data from new devices, and learn fair representations that obfuscate protected attributes such as race, age, and gender.
+    </i></p>
+
+<pre xml:space="preserve" style="display:none;">
+  @article{liang2020think,
+  title={Think locally, act globally: Federated learning with local and global representations},
+  author={Liang, Paul Pu and Liu, Terrance and Ziyin, Liu and Allen, Nicholas B and Auerbach, Randy P and Brent, David and Salakhutdinov, Ruslan and Morency, Louis-Philippe},
+  journal={arXiv preprint arXiv:2001.01523},
+  year={2020}
+}
+</pre>
+    </div>
+  </td>
+</tr>
+  
 
 <hr/>
 
