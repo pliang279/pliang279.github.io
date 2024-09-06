@@ -225,40 +225,6 @@
 
 
 <tr>
-  <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2407.03418">
-  <img alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;border:1px solid black" src="images/hemm.png" />
-  </a></td>
-  <td width="67%" valign="top">
-    <p><a href="https://arxiv.org/abs/2407.03418" id="hemm">
-    <heading>HEMM: Holistic Evaluation of Multimodal Foundation Models</heading></a><br>
-    Paul Pu Liang, Akshay Goindani, Talha Chafekar, Leena Mathur, Haofei Yu, Ruslan Salakhutdinov, Louis-Philippe Morency<br>
-    arXiv 2024<br>
-    </p>
-
-    <div class="paper" id="hemm">
-    <a href="https://arxiv.org/abs/2407.03418">arXiv</a> |
-    <a href="https://github.com/pliang279/HEMM">code</a> |
-    <a href="javascript:toggleblock('hemm_abs')">abstract</a> |
-    <a shape="rect" href="javascript:togglebib('hemm')" class="togglebib">bibtex</a>
-
-    <p align="justify"> <i style="display: none;" id="hemm_abs">Multimodal foundation models that can holistically process text alongside images, video, audio, and other sensory modalities are increasingly used in a variety of real-world applications. However, it is challenging to characterize and study progress in multimodal foundation models, given the range of possible modeling decisions, tasks, and domains. In this paper, we introduce Holistic Evaluation of Multimodal Models (HEMM) to systematically evaluate the capabilities of multimodal foundation models across a set of 3 dimensions: basic skills, information flow, and real-world use cases. Basic multimodal skills are internal abilities required to solve problems, such as learning interactions across modalities, fine-grained alignment, multi-step reasoning, and the ability to handle external knowledge. Information flow studies how multimodal content changes during a task through querying, translation, editing, and fusion. Use cases span domain-specific challenges introduced in real-world multimedia, affective computing, natural sciences, healthcare, and human-computer interaction applications. Through comprehensive experiments across the 30 tasks in HEMM, we (1) identify key dataset dimensions (e.g., basic skills, information flows, and use cases) that pose challenges to today's models, and (2) distill performance trends regarding how different modeling dimensions (e.g., scale, pre-training data, multimodal alignment, pre-training, and instruction tuning objectives) influence performance. Our conclusions regarding challenging multimodal interactions, use cases, and tasks requiring reasoning and external knowledge, the benefits of data and model scale, and the impacts of instruction tuning yield actionable insights for future work in multimodal foundation models.
-    </i></p>
-
-<pre xml:space="preserve" style="display:none;">
-  @article{liang2024hemm,
-  title={HEMM: Holistic Evaluation of Multimodal Foundation Models},
-  author={Liang, Paul Pu and Goindani, Akshay and Chafekar, Talha and Mathur, Leena and Yu, Haofei and Salakhutdinov, Ruslan and Morency, Louis-Philippe},
-  journal={arXiv preprint arXiv:2407.03418},
-  year={2024}
-}
-</pre>
-    </div>
-  </td>
-</tr>
-
-  
-
-<tr>
   <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2209.03430">
   <img alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;border:1px solid black" src="images/survey.png" />
   </a></td>
@@ -434,6 +400,39 @@
 
 
 <tr>
+  <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2001.01523">
+  <img alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;border:1px solid black" src="images/fl.png" />
+  </a></td>
+  <td width="67%" valign="top">
+    <p><a href="https://arxiv.org/abs/2001.01523" id="fl">
+    <heading>Think Locally, Act Globally: Federated Learning with Local and Global Representations</heading></a><br>
+    Paul Pu Liang*, Terrance Liu*, Liu Ziyin, Nicholas Allen, Randy Auerbach, David Brent, Ruslan Salakhutdinov, Louis-Philippe Morency<br>
+    NeurIPS 2019 Workshop on Federated Learning <font color="#DC143C">(oral, distinguished student paper award)<br>
+    </p>
+
+    <div class="paper" id="fl">
+    <a href="https://arxiv.org/abs/2001.01523">arXiv</a> |
+    <a href="https://github.com/pliang279/LG-FedAvg">code</a> |
+    <a href="javascript:toggleblock('fl_abs')">abstract</a> |
+    <a shape="rect" href="javascript:togglebib('fl')" class="togglebib">bibtex</a>
+
+    <p align="justify"> <i style="display: none;" id="fl_abs">Federated learning is a method of training models on private data distributed over multiple devices. To keep device data private, the global model is trained by only communicating parameters and updates which poses scalability challenges for large models. To this end, we propose a new federated learning algorithm that jointly learns compact local representations on each device and a global model across all devices. As a result, the global model can be smaller since it only operates on local representations, reducing the number of communicated parameters. Theoretically, we provide a generalization analysis which shows that a combination of local and global models reduces both variance in the data as well as variance across device distributions. Empirically, we demonstrate that local models enable communication-efficient training while retaining performance. We also evaluate on the task of personalized mood prediction from real-world mobile data where privacy is key. Finally, local models handle heterogeneous data from new devices, and learn fair representations that obfuscate protected attributes such as race, age, and gender.
+    </i></p>
+
+<pre xml:space="preserve" style="display:none;">
+  @article{liang2020think,
+  title={Think locally, act globally: Federated learning with local and global representations},
+  author={Liang, Paul Pu and Liu, Terrance and Ziyin, Liu and Allen, Nicholas B and Auerbach, Randy P and Brent, David and Salakhutdinov, Ruslan and Morency, Louis-Philippe},
+  journal={arXiv preprint arXiv:2001.01523},
+  year={2020}
+}
+</pre>
+    </div>
+  </td>
+</tr>
+
+
+<tr>
   <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/1906.00295">
   <img alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;border:1px solid black" src="images/mult.png" />
   </a></td>
@@ -465,40 +464,8 @@
     </div>
   </td>
 </tr>
-  
-  
-<tr>
-  <td width="33%" valign="top" align="center"><a href="https://arxiv.org/abs/2001.01523">
-  <img alt="sym" width="90%" style="padding-top:0px;padding-bottom:0px;border-radius:15px;border:1px solid black" src="images/fl.png" />
-  </a></td>
-  <td width="67%" valign="top">
-    <p><a href="https://arxiv.org/abs/2001.01523" id="fl">
-    <heading>Think Locally, Act Globally: Federated Learning with Local and Global Representations</heading></a><br>
-    Paul Pu Liang*, Terrance Liu*, Liu Ziyin, Nicholas Allen, Randy Auerbach, David Brent, Ruslan Salakhutdinov, Louis-Philippe Morency<br>
-    NeurIPS 2019 Workshop on Federated Learning <font color="#DC143C">(oral, distinguished student paper award)<br>
-    </p>
 
-    <div class="paper" id="fl">
-    <a href="https://arxiv.org/abs/2001.01523">arXiv</a> |
-    <a href="https://github.com/pliang279/LG-FedAvg">code</a> |
-    <a href="javascript:toggleblock('fl_abs')">abstract</a> |
-    <a shape="rect" href="javascript:togglebib('fl')" class="togglebib">bibtex</a>
 
-    <p align="justify"> <i style="display: none;" id="fl_abs">Federated learning is a method of training models on private data distributed over multiple devices. To keep device data private, the global model is trained by only communicating parameters and updates which poses scalability challenges for large models. To this end, we propose a new federated learning algorithm that jointly learns compact local representations on each device and a global model across all devices. As a result, the global model can be smaller since it only operates on local representations, reducing the number of communicated parameters. Theoretically, we provide a generalization analysis which shows that a combination of local and global models reduces both variance in the data as well as variance across device distributions. Empirically, we demonstrate that local models enable communication-efficient training while retaining performance. We also evaluate on the task of personalized mood prediction from real-world mobile data where privacy is key. Finally, local models handle heterogeneous data from new devices, and learn fair representations that obfuscate protected attributes such as race, age, and gender.
-    </i></p>
-
-<pre xml:space="preserve" style="display:none;">
-  @article{liang2020think,
-  title={Think locally, act globally: Federated learning with local and global representations},
-  author={Liang, Paul Pu and Liu, Terrance and Ziyin, Liu and Allen, Nicholas B and Auerbach, Randy P and Brent, David and Salakhutdinov, Ruslan and Morency, Louis-Philippe},
-  journal={arXiv preprint arXiv:2001.01523},
-  year={2020}
-}
-</pre>
-    </div>
-  </td>
-</tr>
-  
 
 <hr/>
 
