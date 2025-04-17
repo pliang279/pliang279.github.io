@@ -1,5 +1,5 @@
-Paul Liang is an Assistant Professor at the MIT Media Lab and MIT EECS. His research advances the foundations of multisensory artificial
-intelligence to enhance the human experience. He is a recipient of the MIT Sony Career Development Chair Professorship, Forbes 30 under 30 in Science,
-CMU School of Computer Science Distinguished Dissertation Award, Siebel Scholars Award, Waibel Presidential Fellowship, Facebook PhD Fellowship,
-Center for ML and Health Fellowship, Rising Stars in Data Science, and 4 best paper awards. Outside of research, he received the
+Paul Liang is an Assistant Professor at the MIT Media Lab and MIT EECS, where he directs the Multisensory Intelligence research group
+which advances the foundations of multisensory AI to enhance the human experience. He is a recipient of the MIT Sony Career Development Chair Professorship,
+Forbes 30 under 30 in Science, CMU School of Computer Science Distinguished Dissertation Award, Siebel Scholars Award, Waibel Presidential Fellowship,
+Facebook PhD Fellowship, Center for ML and Health Fellowship, Rising Stars in Data Science, and 4 best paper awards. Outside of research, he received the
 Alan J. Perlis Graduate Student Teaching Award for developing new courses on multimodal machine learning.
